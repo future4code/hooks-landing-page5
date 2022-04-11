@@ -5,50 +5,125 @@
 html, body{
     width: 100%;
     height: 100%;
+    background-color: var(--cor2);
 }
 :root{
     --cor1: #7FAD6A;
     --cor2:#ffffff;
+    --cor2-header:#ffffff;
+    --cor3-header: #3b4f66;
     --cor3: #3b4f66;
     --cor4: #84bc6c;
     --cor5: #b2d5a3;
     --cor6:#385b29; 
     --cor7:black;
     --cor8:rgb(88, 88, 88);  
+    --cor9:rgb(0,0,0,.2);
     font-family:  'Quicksand', sans-serif;   
 }
+:root.dark-mode{
+   --cor3: #3b4f66;
+   --cor2: black;
+   --cor7: #ffffff;
+}
+
 header{
+    font-size: 1.2rem;
+}
+#header-principal{
     display:flex;
     align-items: center;
     width: 100%;
-    height: 5%;
-    padding: 1.5%;
-    background-color: var(--cor8);
-    color:white;
+    height: 7vh;
+    padding: 1.5vh;
+    background-color: var(--cor3-header);
+    color:var(--cor2-header);
     position: fixed;
     justify-content: space-between;
+    
 }
 .logo-nome{
     display: flex;
     align-items: center;
 }
 .logo-nome img{
-    width: 50px;
+
+   height: 9vh;  
+}
+
+#logo-mobile{
+    
+    display: none;
 }
 .logo-nome h2{
     margin-left: 20px;
 }
-#nav{
-    margin-right: 50px;
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#nav span{
-    padding: 0px 20px;
+.nav-bar{
+    display: flex;
 }
-#nav a{
+.nav{
+    display: flex;  
+    gap: 1rem;
+    margin-right: 3rem;
+    z-index: 1000;
+    color: var(--cor1);
+}
+.nav li{
+    display: block;
+    list-style: none;
+    box-sizing: border-box;
+    padding: .5rem;
+    
+}
+.nav a{
     text-decoration: none;
-    color: white;
+    color: var(--cor1); 
+}
+.nav li:hover{
+    background-color: var(--cor9);
+    border-radius: .3rem;
+}
+.dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem; 
+    color: var(--cor1);
+
+}
+
+.btn-dark{
+    width: 50px;
+    height: 25px;
+    border: 2px var(--cor1);
+    border-style: solid;
+    margin-right: .5rem;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.btn-dark::before{
+    content: '';
+    position: absolute;
+    height:18px ;
+    width: 18px;
+    background-color:var(--cor2);
+    border-radius: 50%;
+    top:3.5px;
+    left: 3.5px; 
+}
+.btn-dark.ativo::before{
+    background-color: var(--cor1);
+   transform: translateX(25px);
 }
 #sobre{
+    color: var(--cor7);
     display: block;
     position: static;
     margin: 0px 100px;
@@ -56,6 +131,7 @@ header{
     height: 700px;
 }
 #produtos{
+    color: var(--cor7);
     margin: 0px 100px;
     padding-top: 150px;
     height: 700px;

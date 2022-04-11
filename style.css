@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0%;
 }
+html, body{
+    width: 100%;
+    height: 100%;
+}
 :root{
     --cor1: #7FAD6A;
     --cor2:#ffffff;
@@ -11,6 +15,48 @@
     --cor6:#385b29; 
     --cor7:black;
     --cor8:rgb(88, 88, 88);  
-    font-family:  'Quicksand', sans-serif;
-   
+    font-family:  'Quicksand', sans-serif;   
+}
+header{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    padding: 1.5%;
+    background-color: var(--cor8);
+    color:white;
+    position: fixed;
+    justify-content: space-between;
+}
+.logo-nome{
+    display: flex;
+    align-items: center;
+}
+.logo-nome img{
+    width: 50px;
+}
+.logo-nome h2{
+    margin-left: 20px;
+}
+#nav{
+    margin-right: 50px;
+}
+#nav span{
+    padding: 0px 20px;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+}
+#sobre{
+    display: block;
+    position: static;
+    margin: 0px 100px;
+    padding-top: 150px;
+    height: 700px;
+}
+#produtos{
+    margin: 0px 100px;
+    padding-top: 150px;
+    height: 700px;
 }

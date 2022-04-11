@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+:root{
+    --cor1: #7FAD6A;
+    --cor2:#ffffff;
+    --cor3: #3b4f66;
+    --cor4: #84bc6c;
+    --cor5: #b2d5a3;
+    --cor6:#385b29; 
+    --cor7:black;
+    --cor8:rgb(88, 88, 88);  
+    font-family:  'Quicksand', sans-serif;
+   
+}

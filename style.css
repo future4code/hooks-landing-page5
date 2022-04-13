@@ -1,11 +1,12 @@
 *{
     margin: 0;
     padding: 0%;
+    scroll-behavior: smooth;
 }
 html, body{
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: var(--cor2);
 }
 :root{
     --cor1: #7FAD6A;
@@ -141,31 +142,87 @@ header{
 .seguros{
     display: flex;
     justify-content: space-between;
-    height: 80%;
-    margin: 4rem 10rem;
+    height: 50%;
+    padding: 50px;
+    margin: 4rem 5rem;
 }
-.seguros>img{
+.seguros>a{
     display: flex;
-    width: 45%;
-    height: 55%;
+    width: 40%;
+    height: 95%;
     border: 1px solid rgb(47, 47, 47);
     border-radius: 5px 5px;
-    box-shadow: 5px 5px 1em ;
+    box-shadow: none;
 }
-.seguros>p{
-    position: absolute;
-    visibility: collapse;
+.img-seguro{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(47, 47, 47);
+    border-radius: 5px 5px;
+    box-shadow: 5px 5px 1em black;
 }
-/*Hover das imagens do produtos*/
-.seguro-vida:hover{
-    width: 50%;
-    height: 60%;
+/*CADASTRO DO CLIENTE NO SEGURO DE VIDA*/
+#seguro-de-vida{
+    justify-content: space-between;
+    width: 80%;
+    height: 700px;
+    margin: 0px 100px;
+    padding-top:150px ;
+    
 }
-.seguros>p:hover{
-    background-color: black;
-    visibility: visible;
+.detalhes{
+    display: flex;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5% 5%;
+    background-color: #e5e4e2;
 }
-.seguro-carro:hover{
-    width: 50%;
-    height: 60%;
+.texto{
+    margin-right: 10% ;
+}
+.texto>h1{
+    margin-bottom: 7%;
+}
+.texto>p{
+    text-align: justify;
+}
+.texto>h2{
+    margin-top: 30%;
+}
+.formulario{
+    background-color: #cac9c7;
+    width: 80%;
+    height: 90%;
+    border-radius: 5px;
+    padding: 3% 5%;
+}
+.dados>label{
+    display: block;
+    margin-top: 8%;
+}
+.dados>input{
+    border-radius: 5px;
+    padding: 2% 10%;
+}
+.botao-contato{
+    display: flex;
+    padding: 2% 8%;
+    margin:0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+/*Hovers*/
+.seguros>a:hover{
+    width: 45%;
+    height: 100%;
+    cursor: pointer;
+}
+.botao-contato:active{
+    padding: 2% 9%;
+    background-color: gray;
+    color: white;
 }

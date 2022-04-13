@@ -1,0 +1,42 @@
+.dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem; 
+    color: var(--cor1);
+
+}
+
+.btn-dark{
+    width: 40px;
+    height: 20px;
+    border: 2px var(--cor1);
+    border-style: solid;
+    margin-right: .5rem;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.btn-dark::before{
+    content: '';
+    position: absolute;
+    height:16px ;
+    width: 16px;
+    background-color:var(--cor2);
+    border-radius: 50%;
+    top:2px;
+    left: 3.5px; 
+}
+.btn-dark.ativo::before{
+    background-color: var(--cor1);
+   transform: translateX(16px);
+}
+@media screen and (max-width:580px){
+    .dark{
+     margin-right: -.5rem; 
+     transform: scale(.7);
+    }
+     
+     
+}

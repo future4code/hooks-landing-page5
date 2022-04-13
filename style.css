@@ -49,6 +49,7 @@ header{
 }
 .logo-nome img{
    height: 9vh;  
+
 }
 
 #logo-mobile{
@@ -88,7 +89,8 @@ header{
     background-color: var(--cor9);
     border-radius: .3rem;
 }
-.dark{
+
+/* .dark{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,8 +123,9 @@ header{
 .btn-dark.ativo::before{
     background-color: var(--cor1);
    transform: translateX(25px);
-}
+} */
 /*Editando sessão sobre a seguradora*/
+
 #sobre{
     color: var(--cor7);
     display: block;

@@ -15,8 +15,10 @@ html, body{
     --cor3-header: #3b4f66;
     --cor3: #3b4f66;
     --cor4: #84bc6c;
+    --cor4-transparencia: rgb(132,188,108,0.3);
     --cor5: #b2d5a3;
     --cor6:#385b29; 
+    --cor6-transparencia: rgb(56,91,41,.3)
     --cor7:black;
     --cor8:rgb(88, 88, 88);  
     --cor9:rgb(0,0,0,.2);
@@ -30,6 +32,7 @@ html, body{
 
 header{
     font-size: 1.2rem;
+    position: fixed;
 }
 #header-principal{
     display:flex;
@@ -39,6 +42,7 @@ header{
     padding: 1.5vh;
     background-color: var(--cor3-header);
     color:var(--cor2-header);
+    top:0;
     position: fixed;
     justify-content: space-between;
     
@@ -90,6 +94,91 @@ header{
     border-radius: .3rem;
 }
 
+main{
+    position:static;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    width: 100%;
+}
+
+#publicidade{
+    display: flex;
+    width:100%; 
+    justify-content: center;  
+}
+#publicidade div{
+    display: flex;
+    width: 33.33%;
+    max-width: 33.33%;
+    height: 90vh; 
+    cursor: pointer;
+}
+
+.foto1{
+    background-image: url(img/banner2.jpg);
+    background-size: cover;
+    background-position-x: center;
+    justify-content: center;
+    
+}
+.foto2{
+    background-image: url(img/banner3.jpg);
+    background-size: cover;
+    background-position-x: center;
+    justify-content: center;
+}
+.foto3{
+    background-image: url(img/banner4.jpg);
+    background-size: cover;
+    background-position-x: center;
+    justify-content: center;
+}
+
+.foto1 h1, .foto2 h1, .foto3 h1{
+    display: flex;
+    width: 100%;
+    background-color: var(--cor4-transparencia);
+    display: none;
+    
+   
+}
+.foto1 p,.foto2 p,.foto3 p{
+    height: 20vh;
+    width: 30%;
+    position: absolute;
+    color: var(--cor6);
+    font-size: 2.5rem;
+    align-self: end;
+    text-align: center;
+    text-justify: center;
+    max-width: 33.33%;
+    background-color: var(--cor5);
+    border-radius: 15px;
+    border: 2px solid var(--cor6);
+    display: none;
+    margin-bottom: 20px;
+   
+}
+.foto1:hover h1 {
+    display: block;
+}
+.foto1:hover p{
+    display: block;
+}
+.foto2:hover h1 {
+    display: block;
+}
+.foto2:hover p{
+    display: block;
+}.foto3:hover h1 {
+    display: block;
+}
+.foto3:hover p{
+    display: block;
+}
+
+
 /* .dark{
     display: flex;
     justify-content: center;
@@ -125,6 +214,7 @@ header{
    transform: translateX(25px);
 } */
 /*Editando sessão sobre a seguradora*/
+
 
 #sobre{
     color: var(--cor7);

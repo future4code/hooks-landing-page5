@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="btn.css">
     <link rel="stylesheet" href="btn-dark.css">
+    <script src="btn.js" defer></script>
+    <script src="dark-mode.js" defer></script>
     
     <title>4Safe</title>
 </head>
@@ -45,53 +47,83 @@
             </div>
         </div>
     </header>
-    <hr>
-    <section id="sobre">
-        <p>
-            <h1>SOBRE</h1>
-        </p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus unde est quod atque quibusdam quisquam autem odit debitis consequatur voluptates similique mollitia eligendi voluptas hic cumque ex, beatae impedit architecto earum ea. Sequi eum, vitae placeat possimus illo nihil facilis at sapiente numquam ipsum officiis, architecto maxime enim esse excepturi laboriosam dolores? Eius expedita hic, sit esse cum ducimus doloribus.
-    </section>
-    <section id="produtos">
-        <p>
-            <h1>Produtos</h1>
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus unde est quod atque quibusdam quisquam autem odit debitis consequatur voluptates similique mollitia eligendi voluptas hic cumque ex, beatae impedit architecto earum ea. Sequi eum, vitae placeat possimus illo nihil facilis at sapiente numquam ipsum officiis, architecto maxime enim esse excepturi laboriosam dolores? Eius expedita hic, sit esse cum ducimus doloribus.</p>
 
-        <div class="seguros">
-            <a href="#seguro-de-vida"><img class="img-seguro" src="./img/seguro-vida.png" alt="Seguro de vida"></a>
-            <a href="#seguro-de-carro"><img class="img-seguro" src="./img/seguro-carro.png" alt="Seguro de carro"></a>
-        </div>
-    </section>
-
-    <section id="seguro-de-vida">
-        <div class="detalhes">
-            <div class="texto">
-                <h1>Seguro de vida</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima repellat placeat quis quaerat quia eligendi est corrupti suscipit eius totam. Molestias tempore temporibus repellat eveniet odio omnis! Corrupti vero quasi doloremque deleniti voluptatem amet, debitis a possimus!</p> 
-                <h2>Solicite seu orçamento » </h2>
+    <main>
+        <section>
+            <div id="publicidade">
+               
+                <div class="foto1">
+                    <h1></h1>
+                    <p>Seguro AUTO com guincho 24h</p>
+                </div>
+                <div class="foto2">
+                    <h1></h1>
+                    <p>Seguro Saúde para qualquer emergência</p>
+                </div>
+                <div class="foto3">
+                    <h1></h1>
+                    <p>Seguro vida para quem importa</p>
+                </div>
+                <!-- <div class="foto1">
+                    <h1>Seguro AUTO com guincho 24h.</h1>
+                </div>
+                <div class="foto2">
+                    <h1>Seguro Saúde para qualquer emergência.</h1>
+                </div>
+                <div class="foto3">
+                    <h1>Seguro de vida para não deixar na mão quem realmente importa.</h1>
+                </div> -->
+               
             </div>
-            <div class="formulario">
-                <h3>Contato</h3>
-                <form class="dados">
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" placeholder="Digite seu nome completo">
-                    <label for="nascimento">Data de nascimento</label>
-                    <input type="date" name="nascimento">
-                    <label for="email">E-mail</label>
-                    <input type="text" name="email" placeholder="Digite seu e-mail">
-                    <label for="telefone">telefone</label>
-                    <input type="text" name="telefone" placeholder="(DDD) 99999-9999">
-                    <button class="botao-contato" type="submit" name="botao">Enviar !!</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <section id="seguro-de-carro">
-
-    </section>
+        </section>
+        
  
-    <script src="btn.js"></script>
-    <script src="dark-mode.js"></script>
+        <section id="sobre">
+            <p>
+                <h1>SOBRE</h1>
+            </p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus unde est quod atque quibusdam quisquam autem odit debitis consequatur voluptates similique mollitia eligendi voluptas hic cumque ex, beatae impedit architecto earum ea. Sequi eum, vitae placeat possimus illo nihil facilis at sapiente numquam ipsum officiis, architecto maxime enim esse excepturi laboriosam dolores? Eius expedita hic, sit esse cum ducimus doloribus.
+        </section>
+        <section id="produtos">
+            <p>
+                <h1>Produtos</h1>
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus unde est quod atque quibusdam quisquam autem odit debitis consequatur voluptates similique mollitia eligendi voluptas hic cumque ex, beatae impedit architecto earum ea. Sequi eum, vitae placeat possimus illo nihil facilis at sapiente numquam ipsum officiis, architecto maxime enim esse excepturi laboriosam dolores? Eius expedita hic, sit esse cum ducimus doloribus.</p>
+
+            <div class="seguros">
+                <a href="#seguro-de-vida"><img class="img-seguro" src="./img/seguro-vida.png" alt="Seguro de vida"></a>
+                <a href="#seguro-de-carro"><img class="img-seguro" src="./img/seguro-carro.png" alt="Seguro de carro"></a>
+            </div>
+        </section>
+
+        <section id="seguro-de-vida">
+            <div class="detalhes">
+                <div class="texto">
+                    <h1>Seguro de vida</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima repellat placeat quis quaerat quia eligendi est corrupti suscipit eius totam. Molestias tempore temporibus repellat eveniet odio omnis! Corrupti vero quasi doloremque deleniti voluptatem amet, debitis a possimus!</p> 
+                    <h2>Solicite seu orçamento » </h2>
+                </div>
+                <div class="formulario">
+                    <h3>Contato</h3>
+                    <form class="dados">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" placeholder="Digite seu nome completo">
+                        <label for="nascimento">Data de nascimento</label>
+                        <input type="date" name="nascimento">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" placeholder="Digite seu e-mail">
+                        <label for="telefone">telefone</label>
+                        <input type="text" name="telefone" placeholder="(DDD) 99999-9999">
+                        <button class="botao-contato" type="submit" name="botao">Enviar !!</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="seguro-de-carro">
+
+        </section>
+
+    
+    </main>
 </body>
 </html>

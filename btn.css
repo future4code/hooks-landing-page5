@@ -1,5 +1,5 @@
 
-@media screen and (max-width:1050px){
+@media screen and (max-width:1250px){
 .menu-btn{
     position: relative;
     display: flex;
@@ -50,12 +50,12 @@
 }
 }
 
-@media screen and (max-width:1050px){
+@media screen and (max-width:1250px){
     .nav {
         display: none;
         position: absolute;
         color: var(--cor1);
-        background-color:var(--cor3);
+        background-color:var(--cor3-header);
         margin-right: 0;
         top: 10vh;
         right: 0;
@@ -78,4 +78,43 @@
         display: none;
     }
    
+}
+@media screen and (max-width:1250px){
+    .publi-main{
+        flex-direction: column-reverse;
+        justify-content: start;
+        margin-top: 10vh;
+        min-height: 50vh;
+        
+    }
+    .slogan h2{
+        font-size: 2rem;
+    }
+    .foto-principal{
+    display: none;
+    }
+    .publi-main:after{
+        transform: translateY(-20vh);
+    }
+    .publi-main:before{
+      transform: translateY(-20vh);
+    }
+    .publi-main:hover:before{
+        transform: translateY(-20vh) rotate(765deg);
+        background-color: var(--cor2)
+    }
+    .footer-principal{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    #social{
+        margin: 0;
+    
+    }
+    .colaboradores{
+        margin: 0;
+    }
 }

@@ -29,7 +29,7 @@
     left: 3.5px; 
 }
 .btn-dark.ativo::before{
-    background-color: var(--cor1);
+    background-color: var(--cor6);
    transform: translateX(16px);
 }
 @media screen and (max-width:580px){

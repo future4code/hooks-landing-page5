@@ -128,34 +128,56 @@ main{
     margin-bottom: 50px;
     height: 100%;
 }
+/* <<<<<<< beatriz/atualizacao-pagina-produto
 .publi-main:before{
     content: '';
     position: absolute;
+=======
+.efeito{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.quadrado{
+    display: flex;
+    justify-content: center;
+
     width: 15px;
     height: 15px;
     transform: rotate(45deg);
+    transform: rotate(45deg);
     border: solid var(--cor6) 3px;
     bottom: 7vh;
-    transition: 1s;
     background-color: var(--cor6-transparencia);
+
     z-index: 10; 
 }
 .publi-main:after{
-    content: '';
-    position: absolute;
-    background-color: var(--cor6);
-    height: 3px;
-    width: 0;
-    bottom: 8vh;
+    z-index: 20;
     transition: .6s;
 }
-.publi-main:hover:after{
-    width: 90%;  
+.efeito::after{
+
+    content: '';
+    position: absolute;
+    margin-top: 7px;
+    background-color: var(--cor6);
+    height: 3px;
+    width:0;
+    transition: .6s;
 }
-.publi-main:hover:before{
+#publicidade:hover .efeito:after{
+    width: 90vw;
+}
+#publicidade:hover .quadrado{
     transform: rotate(765deg);
+
     background-color: var(--cor2);   
+
+/*     background-color: var(--cor2); */
+
 }
+
 .slogan{
     display: flex;
     flex-direction: column;
@@ -504,4 +526,64 @@ footer{
 .site a:hover{
     background-color: var(--cor9);
     border-radius: .3rem;
+}
+.faqs{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 200px;
+}
+.faq{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 5vw;
+    border-bottom: solid black 1px;
+    padding: 1vw;
+    
+    
+}
+.titulo{
+display: flex;
+max-width: 100%;
+justify-content: space-between;
+align-items: center;
+padding: 0 2vw;
+
+}
+
+.btn-faq1, .btn-faq2{
+    width: 20px;
+    height: 3px;
+    background-color: #000000;
+    transition: .6s;
+    cursor: pointer;
+}
+.btn-faq1::after , .btn-faq2::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background-color: #000000;
+    transform: rotate(90deg);
+    transition: .6s;
+}
+.resp-faq1, .resp-faq2{
+    padding: 0 2vw;
+    max-width: 70%;
+    align-items: flex-start;
+    transition: .6s;
+    height: 0;
+    visibility: hidden;
+    overflow-y: hidden;
+    
+}
+.faq-on{
+    transform:rotate(-45deg);
+    display: block;
+}
+.open-resposta{
+    display: block;
+    height: 10vh;
+    visibility: visible;
 }

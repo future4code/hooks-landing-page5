@@ -309,30 +309,17 @@ main{
 /*CADASTRO DO CLIENTE NO SEGURO DE VIDA*/
 #seguro-de-carro{
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     height: 700px;
     margin: 0px 100px;
     padding-top:150px ;
 }
 #seguro-de-vida{
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     height: 700px;
     margin: 0px 100px;
     padding-top:150px ;
-}
-
-.texto-carro{
-    margin-right: 5% ;
-}
-.texto-carro>h1{
-    margin-bottom: 2%;
-}
-.texto-carro>p{
-    text-align: justify;
-}
-.texto-carro>h2{
-    margin-top: 5%;
 }
 .detalhes{
     display: flex;
@@ -343,7 +330,24 @@ main{
     padding: 5% 5%;
     background-color: #e5e4e2;
 }
+
+.texto-carro{
+    margin-right: 5% ;
+    text-align: left;
+    margin-left: 5%;
+}
+.texto-carro>h1{
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+.texto-carro>p{
+    text-align: justify;
+}
+.texto-carro>h2{
+    margin-top: 7%;
+}
 .texto{
+    width: 100%;
     margin-right: 10% ;
 }
 .texto>h1{
@@ -353,14 +357,21 @@ main{
     text-align: justify;
 }
 .texto>h2{
-    margin-top: 30%;
+    margin-top: 15%;
 }
-.formulario{
+.formulario-vida{
     background-color: #cac9c7;
-    width: 80%;
-    height: 90%;
+    width: 40%;
+    height: 100%;
     border-radius: 5px;
-    padding: 3% 5%;
+    padding: 2% 5%;
+}
+.formulario-carro{
+    background-color: #cac9c7;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 2% 5%;
 }
 .dados>label{
     display: block;

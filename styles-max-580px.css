@@ -160,4 +160,7 @@
     .faq{
         width: 100%;
     }
-}
+    .open-resposta{
+        height: 30vh;
+    }
+}   

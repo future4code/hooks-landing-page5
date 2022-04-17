@@ -1,0 +1,163 @@
+@media screen and (max-width:580px){
+    .dark{
+     margin-right: -.5rem; 
+     transform: scale(.7);
+    }
+     
+    .menu-btn{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 4rem;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        margin-right: 1rem;
+        
+    }
+    .btn-burger{
+        width: 1.5rem;
+        height: .2rem;
+        background-color:  var(--cor1);
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgb(0,0,0,.2); 
+        transition: all 0.5s ease-in-out; 
+    }
+    .btn-burger:after, .btn-burger:before{
+        content: '';
+        position: absolute;
+        width: 1.5rem;
+        height: 0.2rem;
+        background-color: var(--cor1);
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgb(0,0,0,.2); 
+        transition: all 0.5s ease-in-out; 
+    }
+    .btn-burger::after{
+        transform: translateY(-.5rem);
+    }
+    .btn-burger::before{
+        transform: translateY(.5rem);
+    }
+    
+    .menu-btn.open .btn-burger{
+        transform: translateX(-50px);
+        background: transparent;
+        box-shadow: none;
+    }
+    .menu-btn.open .btn-burger::before{
+        transform: rotate(45deg) translate(35px,-35px);
+    }
+    .menu-btn.open .btn-burger::after{
+        transform: rotate(-45deg) translate(35px,35px);
+    }
+    .nav {
+        display: none;
+        position: absolute;
+        color: var(--cor1);
+        background-color:var(--cor3-header);
+        margin-right: 1rem;
+        top: 10vh;
+        right: 0;
+        width: 30vw;    
+        padding: 0; 
+        
+    }
+    .nav.nav-expandida{
+       display: block;  
+    }
+    .nav li{
+       box-sizing: border-box;
+       text-align: center;
+       padding: 1rem 0;
+       
+    }
+    #logo-mobile{
+        display: block;
+    }
+    #logo-navegador{
+        display: none;
+    } 
+    
+    .publi-main{
+        flex-direction: column-reverse;
+        justify-content: start;
+        min-height: 50vh;
+        background-image: url(img/4safe-banner.jpg);
+        background-size: cover;
+        background-position: center;  
+  
+             
+    }
+    .slogan{
+        margin-top: 0;
+        height: 100%;
+        background-color: rgb(0,0,0,.6);
+        
+    }
+    .slogan h2{
+        font-size: 2rem;
+    }
+    .foto-principal{
+    display: none;
+    }
+    #sobre{
+        flex-direction: column;
+        margin-top:50px;
+        align-items: center;
+        padding: 20px;
+    }
+    #produtos{
+        margin-top: 150px;
+    }
+    .seguros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+        padding: 0;
+    }
+    #seguro-de-vida{
+        margin-bottom: 20vh;
+    }
+    .tipo-seguro{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .img-seguro{
+        height: 20vh;
+    }
+    .img-sobre img{
+        width: 80vw;
+        max-width: 80vw;
+    }
+    .detalhes{
+        flex-direction: column;
+    }
+    .det-car{
+        flex-direction: column-reverse;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .footer-principal{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    #social{
+        margin: 0;
+    
+    }
+    .colaboradores{
+        margin: 0;
+    }
+    .faq{
+        width: 100%;
+    }
+}

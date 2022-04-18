@@ -7,6 +7,7 @@
 body{
     width: 100vw;
     background-color: var(--cor2);
+    overflow-x: hidden;
    
 }
 :root{
@@ -207,7 +208,7 @@ section{
     position: relative;
     display: flex;
     flex-direction: column;
-    max-width: 20vw; 
+    max-width: 30vw; 
     gap: 1vh; 
     text-align: justify;
     min-width: 300px;
@@ -218,6 +219,23 @@ section{
 }
 .txt-sobre p{
     font-size: 1.1rem;
+}
+.valores{
+    display: flex;
+    justify-content: space-between;
+}
+.valores>div{
+    box-sizing: border-box;
+    width: 40vw;
+    margin-top: 30px;
+    padding-right: 4vw;
+}
+.valores h3{
+    font-size: 1.4rem;
+    color: var(--cor1);
+}
+.valores p{
+    font-size: 0.9rem;
 }
 .img-sobre img{
 
@@ -230,7 +248,6 @@ section{
 /*Editando sessão dos produtos*/
 #produtos{
     box-sizing: border-box;
-    margin-top: 10vh;
     width: 90vw;
     min-height: 90vh;
     display: flex;
@@ -238,13 +255,14 @@ section{
     gap: 2rem;
 }
 #produtos>h2{
+    margin-top: 10vw;
     color: var(--cor1);
     font-size: 2.5rem;
     text-align: center;
 }
 /*Edição das fotos*/
 .beneficios{
-    width: 90vw;
+    width: 100vw;
     min-height: 100vh;
 }
 .seguros{
@@ -274,7 +292,7 @@ section{
 
 .tipo-seguro ul{
     box-sizing: border-box;
-    min-height: 35vh;
+    min-height: 25vh;
     list-style: none;
 
 }
@@ -288,7 +306,7 @@ section{
     align-items: center;
     width: 100%;
     height: 100%; 
-    margin: 50px;
+    margin: 5px 100px;
 }
 .img-seguro{
     height: 30vh;

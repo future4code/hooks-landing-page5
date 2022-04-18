@@ -48,7 +48,6 @@ Adicionado tema escuro acionado por botão no header.
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
 <p>
 <img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856370-844eb1b7-11f6-48cd-abec-21c1da4b38b4.png">
 <img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856432-c20873d2-9b31-412e-92e9-a1f6c609b40c.png">

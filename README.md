@@ -1,99 +1,70 @@
-# Título do projeto
+# Landing page grupo 5 
+## 4Life - seguro de vida
 
-Um parágrafo da descrição do projeto vai aqui
 
-## 🚀 Começando
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+## 🚀 Resumo
 
-Consulte **Implantação** para saber como implantar o projeto.
+A proposta foi de criar uma landing page sobre uma empresa fictícia. Escolhemos a 4life que era uma seguradora focada no público jovem, que trouxesse praticidade na contratação de um seguro.
+ 
+### 📋  Requisitos
 
-### 📋 Pré-requisitos
+- Trabalhar duas linhas de produto (seguro de vida e seguro de carro);
+- Montar o site numa paleta de cores que fizesse sentido com o logo da empresa;
+- Fazer o site ser responsivo para desktop e mobile;
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+### 🔧 Estrutura 
 
-```
-Dar exemplos
-```
+### Header:
+![image](https://user-images.githubusercontent.com/98292838/163854497-927ede5c-bbdb-41ef-a0dd-233627f284a7.png)
 
-### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Trouxemos uma estrutura simples de header, com duas opções de logo (uma extendida para telas maiores, e uma simplificada para mobiles) e um menu de navegação.
+No mobile escondemos o menu e acionamos um menu vertical através de um botão tipo "hamburger":
+![image](https://user-images.githubusercontent.com/98292838/163854863-41d2fce5-0520-4335-9d1c-6208c40bcb28.png)
+![image](https://user-images.githubusercontent.com/98292838/163854999-f6ce435c-5765-46d3-a213-dfcc9368cc20.png)
 
-Diga como essa etapa será:
 
-```
-Dar exemplos
-```
+### Main: 
 
-E repita:
+Dividimos a Main nas seguintes seções: Home, sobre nós, produtos, seguro de vida, seguro de carro e FAQ.
+Em cada tipo de seguro, trouxemos uma breve descrição e um formulário para solicitação de orçamento.
+![image](https://user-images.githubusercontent.com/98292838/163855326-3315e62f-cd3b-4dbf-ad28-965f54449a89.png)
 
-```
-Até finalizar
-```
+### Footer:
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
-## ⚙️ Executando os testes
+Dividimos o footer em 3 seções: Colaboradores, links do site e redes sociais.
+Todos os links externos são funcionais e abrem em uma página em branco.
+![image](https://user-images.githubusercontent.com/98292838/163855680-4fd64637-7e49-4d21-b11d-76e58cbf2e95.png)
 
-Explicar como executar os testes automatizados para este sistema.
+### Extra: 
 
-### 🔩 Analise os testes de ponta a ponta
 
-Explique que eles verificam esses testes e porquê.
+Adicionado tema escuro acionado por botão no header.
+![image](https://user-images.githubusercontent.com/98292838/163856007-b6748258-d359-4fa0-af5e-bea4a03e9049.png)
 
-```
-Dar exemplos
-```
 
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-## 📦 Desenvolvimento
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
+<p>
+<img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856370-844eb1b7-11f6-48cd-abec-21c1da4b38b4.png">
+<img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856432-c20873d2-9b31-412e-92e9-a1f6c609b40c.png">
+<img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856484-18282144-9061-42ee-9691-66c6454b362f.png">
+<img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856535-00dbc8fe-e415-4fa3-8d81-50975fb8839c.png">
+</p>
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+## 🔗 Link Surge:
 
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢
-* Convide alguém da equipe para uma cerveja 🍺 
-* Obrigado publicamente 🤓.
-* etc.
+* [**Beatriz Souza**](https://github.com/zirtaebS)
+* [**Camila Barros**](https://github.com/scamilas)
+* [**Gabriel Antunes**](https://github.com/DevAntunes)
 
 
----
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+

@@ -223,12 +223,16 @@ section{
 .valores{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .valores>div{
     box-sizing: border-box;
     width: 40vw;
-    margin-top: 30px;
-    padding-right: 4vw;
+   
+    
 }
 .valores h3{
     font-size: 1.4rem;

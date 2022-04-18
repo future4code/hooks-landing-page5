@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="btn.css">
+    <link rel="stylesheet" href="styles-max-580px.css">
     <link rel="stylesheet" href="btn-dark.css">
     <script src="btn.js" defer></script>
     <script src="dark-mode.js" defer></script>
@@ -19,7 +19,6 @@
 </head>
 <body>
     <header>
-        
         <div id="header-principal">
             <div class="logo-nome">
                 <a href="#" id="logo-mobile"><img src="img/logo-simplificado.png" alt="Logo 4Safe"></a>
@@ -30,21 +29,23 @@
                     <div class="btn-dark"></div>
                     <span>DarkMode</span>
                 </div>
-                <div class="nav-bar">
-                    <div class="menu-btn">
-                        <div class="btn-burger"></div>
-                    </div>
-                    <div>
-                        <ul class="nav">
-                            <a href="#publicidade"><li>Home</li></a>
-                            <a href="#sobre"><li>Sobre</li></a>
-                            <a href="#produtos"><li>Seguros</li></a>
-                            <a href="#seguro-de-vida"><li>Seguro de vida</li></a>
-                            <a href="#seguro-de-carro"><li>Seguro de automóveis</li></a>
+                <nav>
+                    <div class="nav-bar">
+                        <div class="menu-btn">
+                            <div class="btn-burger"></div>
+                        </div>
+                        <div>
+                            <ul class="nav">
+                                <a href="#publicidade"><li>Home</li></a>
+                                <a href="#sobre"><li>Sobre</li></a>
+                                <a href="#produtos"><li>Seguros</li></a>
+                                <a href="#seguro-de-vida"><li>Seguro de vida</li></a>
+                                <a href="#seguro-de-carro"><li>Seguro de automóveis</li></a>
 
-                        </ul>
-                    </div>   
-                </div>
+                            </ul>
+                        </div>   
+                    </div>
+                </nav>
             </div>
         </div>
     </header>
@@ -61,140 +62,184 @@
                     <div class="foto-principal">
                         <img src="img/4safe-banner.jpg" alt="Casal andando de mãos dadas com seu filho pequeno em um dia de outono.">
                     </div>
-                </div>
-                <div class="efeito">
-                <div class="quadrado"></div>
-                </div>
-            </div>
-            
+            </div>   
         </section>
         
- 
-        <!-- <section id="sobre">
-            <p>
-                <h1>SOBRE</h1>
-            </p>
-            A 4Safe seguros tem o perfil inovador, somos o que há de melhor em seguros de vida e veicular.
-            Todos os nossos produtos são personalizáveis, temos a segurança e o conforto que você e
-            sua família merecem, com coberturas e assistências para escolha de acordo com o seu perfil e momento de vida.
-            Um seguro vitalício, sem reajuste por idade e muitas assistências.
-            Tenha tudo o que você e sua família precisam, e muito mais benefícios para aproveitar a vida!
-        </section>
-        <section id="produtos">
-            <h1>Com a 4Safe o seu plano pode ser personalizado, confira alguns de nossos beneficios</h1>
-            <div class="seguros">
-                <div class="tipo-seguro">
-                    <p><b>Para o seu seguro de vida: </b></p>
-                    <ul>
-                        <li>☑️ Seguros de 10 mil até 500 mil reais</li>
-                        <li>🩺 Plano de saúde, com profissionais qualificados</li>
-                        <li>💊 Descontos em farmácias</li>
-                        <li>🚑 Atendimento exclusivo</li>
-                        <li>📞 Suporte 24h</li>
-                        <li>☑️ Entre muitos outros beneficios</li>
-                    </ul>
-                    <a href="#seguro-de-vida"><img class="img-seguro" src="./img/seguro-vida.png" alt="Seguro de vida"></a>
+        <section>
+            <div id="sobre">
+                <div class="txt-sobre">
+               
+                    <h2>Sobre nós</h2>
+                    <p>A 4Safe seguros tem o perfil inovador, somos o que há de melhor em seguros de vida e veicular.
+                    </p>
+                    <p>
+                    Todos os nossos produtos são personalizáveis, temos a segurança e o conforto que você e
+                    sua família merecem, com coberturas e assistências para escolha de acordo com o seu perfil e momento de vida.
+                    </p>
+                    <p>
+                    Um seguro vitalício, sem reajuste por idade e muitas assistências.
+                    Tenha tudo o que você e sua família precisam, e muito mais benefícios para aproveitar a vida!
+                    </p>
                 </div>
-                <div class="tipo-seguro">
-                    <p><b>Para o seu seguro de automóvel:</b></p>
-                    <ul>
-                        <li>☑️ Guincho 24h</li>
-                        <li>⛽ Descontos em posto de gasolina</li>
-                        <li>👨‍🔧 Rede de oficinas com serviços gratuitos</li>
-                        <li>🩹 Indenização para danos corporais</li>
-                        <li>📞 Suporte 24h</li>
-                        <li>☑️ Entre muitos outros beneficios</li>
-                    </ul>
-                    <a href="#seguro-de-carro"><img class="img-seguro" src="./img/seguro-carro.png" alt="Seguro de carro"></a>
+                <div class="img-sobre">
+                    <img src="img/banner1.png" alt="Celular mostrando na tela o logo da 4safe seguro.">
+                </div>
+            </div>
+           
+        </section>
+        <section>
+            <div id="produtos">
+                <h2>Confira os benefícios do seguro 4Safe</h2>
+                <div class="beneficios">
+                    <div class="seguros">
+                        <div class="tipo-seguro">
+                            <div class="beneficios-seguro">
+                                <h3>Para o seu seguro de vida: </h3>
+                                <ul>
+                                    <li>☑️ Seguros de 10 mil até 500 mil reais</li>
+                                    <li>🩺 Plano de saúde, com profissionais qualificados</li>
+                                    <li>💊 Descontos em farmácias</li>
+                                    <li>🚑 Atendimento exclusivo</li>
+                                    <li>📞 Suporte 24h</li>
+                                    <li>☑️ Entre muitos outros beneficios</li>
+                                </ul>
+                            </div>
+                            <a href="#seguro-de-vida"><img class="img-seguro" src="./img/seguro-vida.png" alt="Seguro de vida"></a>
+                        </div>
+                        <div class="tipo-seguro">
+                            <div class="beneficios-seguro">
+                                <h3>Para o seu seguro de automóvel:</h3>
+                                <ul>
+                                    <li>☑️ Guincho 24h</li>
+                                    <li>⛽ Descontos em posto de gasolina</li>
+                                    <li>👨‍🔧 Rede de oficinas com serviços gratuitos</li>
+                                    <li>🩹 Indenização para danos corporais</li>
+                                    <li>📞 Suporte 24h</li>
+                                    <li>☑️ Entre muitos outros beneficios</li>
+                                </ul>
+                            </div>
+                            <a href="#seguro-de-carro"><img class="img-seguro" src="./img/seguro-carro.png" alt="Seguro de carro"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-
-        <section id="seguro-de-vida">
-            <div class="detalhes">
-                <div class="texto">
-                    <h1>Seguro de vida</h1>
-                    <p>Os seguros de vida da 4Safe foram elaborados pensando na segurança e proteção de sua família, 
-                        garantindo seu bem-estar e tranquilidade. Nossos produtos também trazem proteção em vários momentos 
-                        de sua vida, oferecendo tudo o que você precisa, além de benefícios! Confira nossas opções e
-                        escolha a ideal para você. Temos seguros flexíveis que te permitem escolher as coberturas e 
-                        assistências que mais se encaixem ao seu perfil e momento de vida. Em caso de invalidez ou  
-                        doenças graves, o seguro paga todo o tratamento e cuidados necessários.</P>
-                    <h2>Solicite seu orçamento » </h2>
-                </div>
-                <div class="formulario-vida">
-                    <h3>Contato</h3>
-                    <form class="dados">
-                        <label for="nome">Nome</label>
-                        <input type="text" name="nome" placeholder="Digite seu nome completo">
-                        <label for="nascimento">Data de nascimento</label>
-                        <input type="date" name="nascimento">
-                        <label for="email">E-mail</label>
-                        <input type="text" name="email" placeholder="Digite seu e-mail">
-                        <label for="telefone">telefone</label>
-                        <input type="text" name="telefone" placeholder="(DDD) 99999-9999">
-                        <button class="botao-contato" type="submit" name="botao">Enviar !!</button>
-                    </form>
+        <section>
+            <div id="seguro-de-vida">
+                <div class="detalhes">
+                    <div class="texto">
+                        <div class="resumo">
+                            <h2>Seguro de vida</h2>
+                            <p>Os seguros de vida da 4Safe foram elaborados pensando na segurança e proteção de sua família, 
+                                garantindo seu bem-estar e tranquilidade. Nossos produtos também trazem proteção em vários momentos 
+                                de sua vida, oferecendo tudo o que você precisa, além de benefícios! Confira nossas opções e
+                                escolha a ideal para você. Temos seguros flexíveis que te permitem escolher as coberturas e 
+                                assistências que mais se encaixem ao seu perfil e momento de vida. Em caso de invalidez ou  
+                                doenças graves, o seguro paga todo o tratamento e cuidados necessários.</P>
+                            </div>
+                        <h2>Solicite seu orçamento » </h2>
+                    </div>
+                    <div class="formulario">
+                        <h3>Contato</h3>
+                        <form class="dados">
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" placeholder="Digite seu nome completo">
+                            <label for="nascimento">Data de nascimento</label>
+                            <input type="date" name="nascimento">
+                            <label for="email">E-mail</label>
+                            <input type="text" name="email" placeholder="Digite seu e-mail">
+                            <label for="telefone">telefone</label>
+                            <input type="text" name="telefone" placeholder="(DDD) 99999-9999">
+                            <button class="botao-contato" type="submit" name="botao">Enviar !!</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="seguro-de-carro">
-        <div class="detalhes">
-            <div class="formulario-carro">
-                <h3>Contato</h3>
-                <form class="dados">
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" placeholder="Digite seu nome completo">
-                    <label for="nascimento">Data de nascimento</label>
-                    <input type="date" name="nascimento">
-                    <label for="email">E-mail</label>
-                    <input type="text" name="email" placeholder="Digite seu e-mail">
-                    <label for="telefone">telefone</label>
-                    <input type="text" name="telefone" placeholder="(DDD) 99999-9999">
-                    <button class="botao-contato" type="submit" name="botao">Enviar !!</button>
-                </form>
-                
-            </div>
-                <div class="texto-carro">
-                    <!-- <h1>Seguro de carro</h1>
-                        <p>Proteja seu carro ou moto com o 4Safe seguros. Proteção completa, conveniência onde você estiver.
-                        Cobertura na medida, sem carência e sem fidelidade.</p> -->
-                    <h1>Seguro para carros</h1>
-                        <p>Perfeito para quem deseja tranquilidade, segurança e comodidade no cuidado com o veículo.
-                        O que cobrimos: Roubo e furto, perda total, danos parciais, guincho, pane elétrica ou mecânica,
-                        pane seca (falta de gasolina), troca de pneu, chaveiro, estacionamento por uma noite, cobertura para terceiros,
-                        acessórios instalados, carro reserva, entre outras coisas.</p>
-                    <h1>Seguro para motos</h1>
-                        <p>Com coberturas específicas e uma grande variedade de assistências, serviços e benefícios, 4Safe seguro 
-                        auto para Motos é a proteção que você precisa para curtir o seu veículo com tranquilidade. Assistência 24h grátis.</p>
+        <section>
+            <div id="seguro-de-carro">
+                <div class="detalhes det-car">
+                    <div class="formulario">
+                        <h3>Contato</h3>
+                        <form class="dados">
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" placeholder="Digite seu nome completo">
+                            <label for="nascimento">Data de nascimento</label>
+                            <input type="date" name="nascimento">
+                            <label for="email">E-mail</label>
+                            <input type="text" name="email" placeholder="Digite seu e-mail">
+                            <label for="telefone">telefone</label>
+                            <input type="text" name="telefone" placeholder="(DDD) 99999-9999">
+                            <button class="botao-contato" type="submit" name="botao">Enviar !!</button>
+                        </form>    
+                    </div>
+                    <div class="texto">
+                        <div class="resumo">
+                            <h2>Seguro para carros</h2>
+                            <p>Perfeito para quem deseja tranquilidade, segurança e comodidade no cuidado com o veículo.
+                                O que cobrimos: Roubo e furto, perda total, danos parciais, guincho, pane elétrica ou mecânica,
+                                pane seca (falta de gasolina), troca de pneu, chaveiro, estacionamento por uma noite, cobertura para terceiros,
+                                acessórios instalados, carro reserva, entre outras coisas.</p>
+                            <h2>Seguro para motos</h2>
+                            <p>Com coberturas específicas e uma grande variedade de assistências, serviços e benefícios, 4Safe seguro 
+                                auto para Motos é a proteção que você precisa para curtir o seu veículo com tranquilidade. Assistência 24h grátis.</p>
+                        </div>
                         <h2> « Solicite seu orçamento</h2>
+                    </div>
                 </div>
-        </div>
- beatriz/atualizacao-pagina-produto
+            </div>
         </section>
 
-    <section>
-        <div class="faqs">
-            <div class="faq">
-                <div class="titulo">
-                    <h3>Um título qualquer</h3>
-                    <div class="btn-faq1"></div>
+        <section>
+            <div class="faqs">
+                <h2>Perguntas Frequentes</h2>
+                <div class="faq">
+                    <div class="titulo">
+                        <h3>O que garante que vocês vão pagar?</h3>
+                        <div class="btn-faq1"></div>
+                    </div>
+                    <div class="resp-faq1">
+                        <p>A 4Safe é a única empresa de seguro de vida no Brasil que faz a consulta mensal do CPF de seus segurados. Se, por ventura, algum CPF não estiver mais ativo na base da receita ou de cartórios, entramos em contato com os beneficiários para garantir o pagamento do seguro.</p>
+                    </div>
                 </div>
-                <div class="resp-faq1">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, praesentium sapiente doloremque delectus quod voluptas odit sequi quis neque. Fugit maiores quaerat laboriosam omnis iusto dolores laudantium, alias numquam cumque?</p>
+                <div class="faq">
+                    <div class="titulo">
+                        <h3>Quem deve ter um seguro de vida?</h3>
+                        <div class="btn-faq2"></div>
+                    </div>
+                    <div class="resp-faq2">
+                        <p>Qualquer pessoa que tem um dependente financeiro deveria ter um seguro de vida.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="faq">
-                <div class="titulo">
-                    <h3>Um título qualquer</h3>
-                    <div class="btn-faq2"></div>
+                <div class="faq">
+                    <div class="titulo">
+                        <h3>Quem deve ter um seguro auto?</h3>
+                        <div class="btn-faq3"></div>
+                    </div>
+                    <div class="resp-faq3">
+                        <p>Qualquer pessoa que não queira se preocupar com qualquer problema com seu veículo.</p>
+                    </div>
                 </div>
-                <div class="resp-faq2">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, praesentium sapiente doloremque delectus quod voluptas odit sequi quis neque. Fugit maiores quaerat laboriosam omnis iusto dolores laudantium, alias numquam cumque?</p>
+                <div class="faq">
+                    <div class="titulo">
+                        <h3>A 4Safe é segura?</h3>
+                        <div class="btn-faq4"></div>
+                    </div>
+                    <div class="resp-faq4">
+                        <p>Sim. Pessoas de todo o território brasileiro já confiam na 4Safe para proteger suas famílias. Além disso, a 4Safe é ressegurada pelo maior ressegurador da América Latina.</p>
+                    </div>
                 </div>
-            </div>
-        </div>        
-    </section>
+                <div class="faq">
+                    <div class="titulo">
+                        <h3>E se eu quiser cancelar?</h3>
+                        <div class="btn-faq5"></div>
+                    </div>
+                    <div class="resp-faq5">
+                        <p>Você pode cancelar o seu seguro a qualquer momento, sem permanência mínima ou multas. É só chamar o nosso time de atendimento por telefone, e-mail ou WhatsApp.</p>
+                    </div>
+                </div>
+            </div>        
+        </section>
     </main>
     <footer>
         <div class="footer-principal">
